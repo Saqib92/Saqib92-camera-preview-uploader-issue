@@ -1,0 +1,7 @@
+{
+  "name": "campeview-uploader",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular-standalone"
+}
