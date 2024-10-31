@@ -1,20 +1,26 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
+<ion-content class="ion-padding">
 
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
-    <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
-    </ion-toolbar>
-  </ion-header>
+  @if(!isCameraOpen){
+    <ion-button (click)="startCamera()">
+     open Camera
+    </ion-button>
+  }
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
+  <ion-fab slot="fixed" horizontal="center" vertical="bottom">
+    @if(!isRecording){
+    <ion-button (click)="startRecording()">
+      Start
+    </ion-button>
+    }@else{
+    <ion-button (click)="stopRecording()">
+      Stop
+    </ion-button>
+    }
+  </ion-fab>
+
+  <ion-fab slot="fixed" horizontal="end" vertical="bottom">
+    <ion-fab-button (click)="flip()">
+      Flip
+    </ion-fab-button>
+  </ion-fab>
 </ion-content>

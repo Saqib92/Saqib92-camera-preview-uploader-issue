@@ -34,4 +34,12 @@
 
 /* @import "@ionic/angular/css/palettes/dark.always.css"; */
 /* @import "@ionic/angular/css/palettes/dark.class.css"; */
-@import '@ionic/angular/css/palettes/dark.system.css';
+//@import '@ionic/angular/css/palettes/dark.system.css';
+// in the scss file of your page
+ion-content {
+    --background: transparent;
+}
+
+ion-fab {
+    margin-bottom: var(--ion-safe-area-bottom, 0);
+}
