@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1077151725207",
+    "project_id": "wizdiary",
+    "storage_bucket": "wizdiary.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1077151725207:android:6f77b26e37d67c3a67dbd2",
+        "android_client_info": {
+          "package_name": "com.wizdiary.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1077151725207-4fo0um4od038rr80af7msh295bp5hls0.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCYG4ygt3nxVBEoWspS_BVIWmgTjmq1gyI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1077151725207-4fo0um4od038rr80af7msh295bp5hls0.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

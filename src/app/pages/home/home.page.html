@@ -1,9 +1,15 @@
+<ion-header [translucent]="true">
+  <ion-toolbar>
+    <ion-title>Home</ion-title>
+  </ion-toolbar>
+</ion-header>
+
 <ion-content class="ion-padding">
 
   @if(!isCameraOpen){
-    <ion-button (click)="startCamera()">
-     open Camera
-    </ion-button>
+  <ion-button (click)="startCamera()">
+    open Camera
+  </ion-button>
   }
 
   <ion-fab slot="fixed" horizontal="center" vertical="bottom">
