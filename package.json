@@ -29,6 +29,7 @@
     "@capacitor/keyboard": "6.0.2",
     "@capacitor/status-bar": "6.0.1",
     "@capgo/camera-preview": "^6.3.30",
+    "@capgo/capacitor-social-login": "^0.0.68-alpha.2",
     "@capgo/capacitor-uploader": "^0.0.25",
     "@ionic/angular": "^8.0.0",
     "ionicons": "^7.2.1",

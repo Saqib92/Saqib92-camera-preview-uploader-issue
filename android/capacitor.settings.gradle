@@ -17,5 +17,8 @@ project(':capacitor-status-bar').projectDir = new File('../node_modules/@capacit
 include ':capgo-camera-preview'
 project(':capgo-camera-preview').projectDir = new File('../node_modules/@capgo/camera-preview/android')
 
+include ':capgo-capacitor-social-login'
+project(':capgo-capacitor-social-login').projectDir = new File('../node_modules/@capgo/capacitor-social-login/android')
+
 include ':capgo-capacitor-uploader'
 project(':capgo-capacitor-uploader').projectDir = new File('../node_modules/@capgo/capacitor-uploader/android')
